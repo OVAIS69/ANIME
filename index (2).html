@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeTown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+
+<body class="classic-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;" style="margin-top: 0.7rem;"><a href="#home"><img
+                        class="icon-home" src="icon.png"
+                        alt="Logo de uma casa, ao clicar voltara para o começo da pagina"></a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#animes">Anime Town</a></li>
+                    <li><a href="#galeria">Gallery</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="sss.html">Manga Town</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div id="home" class="menu-spacing"></div>
+    <section class="section classic-bg">
+        <div class="home-content">
+            <h2>what is Anime?</h2>
+            <p>
+                According to the Japanese concept of anime,
+                 this term is used to classify all types of 
+                 animation, that is, regardless of their origin 
+                 (national or foreign). The origin of the word anime
+                  is uncertain. Some researchers consider it to be an 
+                abbreviation of the English animation (“animation”),
+                 while others argue that it may have emerged from the 
+                 French animée (“animated”). Anime can be of numerous 
+                 different types, such as children's, horror, romance, comedy, adventure, erotic,
+                  science fiction, etc.
+            </p>
+            <div class="home-img">
+                <img src="juncao-img.png" alt="Banner with the six most watched animes in 2022. The animes are organized
+                from left to right with a slight 'italic' in the images, with a
+                thin, white division between them. The first image is Demon Slayer: Kimetsu no
+                Yaiba, the second image is Attack on Titan - Shingeki No Kyojin final season,
+                the third is Kaguya-sama - Love is War Ultra Romantic, the fourth is Bleach -
+                Thousand-year Blood War, the fifth is Chainsaw man and the sixth image is Blue
+                Lock.">
+            </div>
+            <h3>Features of anime</h3>
+            <p>
+                Anime drawings are characterized by the intense demonstration of the characters' feelings and emotions through their facial expressions. Big eyes, full of brightness and color, onomatopoeia and exaggerated expressions are some of the most common characteristics in anime.
+            </p>
+        </div>
+    </section>
+
+    <section class="section darkgray-bg">
+        <div id="top3" class="menu-spacing"></div>
+        <div class="home-content">
+            <h2 id="mobile-al" style="text-align: center;">Top 3 Studios</h2>
+            <div class="intro-content">
+                <div class="intro-text-content divisao-grid">
+                    <h3>Mappa</h3>
+                    <p>
+                        MAPPA Co., Ltd. is a Japanese animation studio founded on June 14, 2011 by 
+                        Masao Maruyama, founder and former producer of Madhouse. 
+                        "MAPPA" is an acronym for Maruyama Animation Produce Project Association.
+                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="mappa.png" >
+                </div>
+
+                <div class="intro-text-content div-grid">
+                    <h3>Ufotable</h3>
+                    <p>
+                        Ufotable is a Japanese animation studio based in Suginami,
+                        Tokyo. Hikaru Kondou - founded the studio in October 2000.
+                        The company's name originates from a UFO-shaped table 
+                        that Kondou found while developing the studio's vision.                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="ufotable.png">
+                </div>
+
+                <div class="intro-text-content div-grid">
+                    <h3>Pierrot</h3>
+                    <p>
+                        Pierrot Co., Ltd. is a Japanese animation studio founded in May 1979 by
+                        former employees of Tatsunoko Production and Mushi Production. 
+                        Pierrot is known for several
+                        series of popular anime around the world.
+                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="pierrot (1).png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="animes" class="menu-spacing"></div>
+
+    <section class="section classic-bg">
+        <h2 style="text-align: center;">Animes</h2>
+        <div class="grid-animes">
+
+            <div class="grid">
+                <article class="animee">
+                    <h3 class="title-animes">jujutsu kaisen</h3>
+                    <div style="align-items: center;" class="intro-img home-img ">
+                        <a href="JUJUJU.html"><img class="tamanho-animes" src="jjk-modified (1).png"></a>
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">"Jujutsu Kaisen" follows Yuji Itadori, drawn
+                        into a world of curses after encountering a malevolent object. Enrolling in Tokyo Metropolitan Jujutsu Technical High School, he, alongside classmates Megumi and the eccentric Satoru Gojo, battles Cursed Spirits. As they confront escalating threats, the trio grapples with the consequences of their actions, exploring themes of friendship and the fine line between humanity and malevolence. With dynamic action and well-developed characters, "Jujutsu Kaisen" 
+                               has become a standout in anime, combining intense battles with 
+                               a compelling narrative in its exploration of the supernatural..</p>
+                </article> 
+                <article class="animee">
+                    <h3 class="title-animes">Naruto</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="nar-modified (1).png" >
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Naruto Uzumaki, a young ninja with a dream of becoming the strongest ninja and earning the title of Hokage, faces various challenges and adversaries in his journey. Orphaned at a young age and having the powerful Nine-Tailed Fox sealed within him, Naruto strives to gain recognition from his fellow villagers and prove his worth. Along with his friends Sasuke and Sakura, Naruto embarks on a path of self-discovery, growth, and the pursuit of his ninja dreams.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">One Piece</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="one-modified.png" alt="Banner do anime One Piece">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Monkey D. Luffy, a young and ambitious pirate, sets out on a journey to find the legendary treasure known as One Piece and become the Pirate King. Along the way, he forms a diverse and powerful crew, known as the Straw Hat Pirates, and they navigate through the Grand Line, facing powerful enemies, making new friends, and discovering the mysteries of the world. With a dream as vast as the ocean, Luffy and his crew embark on an epic adventure that will test their strength, determination, and friendship.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">I Want to Eat Your Pancreas</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="eat-modified.png" alt="Banner for the anime I Want to Eat Your Pancreas">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">"I Want to Eat Your Pancreas" is a poignant and emotional anime that revolves around the unexpected bond between an introverted high school student known only as "Me" and Sakura Yamauchi, a girl suffering from a pancreatic illness. After discovering Sakura's secret diary, Me learns about her limited time left and decides to spend her remaining days fulfilling her wishes. The story explores themes of friendship, love, and the impact of terminal illness on the lives of those affected. Prepare for a heartfelt journey as Me and Sakura embark on an unforgettable and bittersweet adventure.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Nana</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="nanana-modified.png" alt="Banner for the anime Nana">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">"Nana" follows the intertwined lives of two young women with the same name who meet by chance on a train to Tokyo. Nana Osaki, a punk rock vocalist with dreams of stardom, and Nana Komatsu, a more innocent and optimistic girl, form an unlikely friendship as they navigate the challenges of love, friendship, and pursuing their aspirations in the bustling city. The series delves into themes of relationships, personal growth, and the complexities of the entertainment industry. With a soundtrack featuring rock music and a compelling narrative, "Nana" offers a captivating and emotional journey through the lives of its two protagonists.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Love, Chunibyo & Other Delusions</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="lov-modified.png" alt="Banner for the anime Love, Chunibyo & Other Delusions">
+                    </div>
+                    <h4 class="sinopse">Synopsis</h4>
+                    <p class="text-sinopse conteudo">"Love, Chunibyo & Other Delusions" follows the story of Yuuta Togashi, a high school student trying to leave behind his embarrassing past as a "chunibyo" — someone who harbors delusions of grandeur and fantasy. In an attempt to lead a normal high school life, Yuuta encounters Rikka Takanashi, a girl still fully immersed in her delusional world.</p>
+                    
+                   
+                </article>
+                
+                                
+                <article class="animee">
+                    <h3 class="title-animes">Attack on Titan</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="attack.png">                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Eren Jaeger swore to eliminate
+                        all the Titans, but in a desperate battle he becomes the thing he hates most. With your
+                        new powers, he fights for humanity's freedom, fighting the monsters that threaten his
+                        home. Even after defeating the Female Titan, Eren can't rest - a horde of Titans descends on him.
+                        approach Wall Rose and the battle in the name of humanity continues.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Death Note</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="dn-modified.png" alt="Banner do anime Death Note">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Light Yagami, a highly intelligent and bored high school student, discovers a mysterious notebook known as the Death Note. The Death Note has the power to kill anyone whose name is written in it, as long as the writer has the person's face in mind. Light, who aspires to create a utopia by eliminating criminals, begins using the Death Note to mete out his own form of justice. However, his actions attract the attention of the enigmatic and highly skilled detective known only as "L." What follows is a high-stakes game of cat and mouse between Light and L, with the fate of the world hanging in the balance.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">One Punch Man</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="punch-modified.png" alt="Banner do anime One Punch Man">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Saitama, a seemingly ordinary man, becomes a hero for fun and sets out to find a worthy opponent. However, he becomes so powerful that he can defeat any opponent with a single punch. Frustrated by the lack of challenging battles, Saitama faces an existential crisis despite his overwhelming strength. Alongside his cyborg disciple Genos, Saitama joins the Hero Association to gain recognition for his heroic deeds and seeks to uncover the secrets behind his unprecedented strength. "One Punch Man" is a satirical take on the superhero genre, blending action, humor, and a unique perspective on the concept of power in the world of heroes and villains.</p>
+                </article>
+                
+                <article class="animee">
+                    <h3 class="title-animes">KAGUYA-SAMA</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="kaguya.png"
+                            alt="Banner do anime KAGUYA-SAMA: LOVE IS WAR">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">All elite young people with
+                        Bright futures end up at Shuchiin Academy.
+                        And both student council leaders, Kaguya Shinomiya and Miyuki Shirogane, are
+                        in love with each other. They are both too proud to confess their love, and now they both
+                        are fighting to see who
+                        make the other person declare themselves first!
+                        The most fun part of love is the game of conquest!
+                        A new romantic comedy about the intellectual battles of two elite students
+                        in love.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Bleach</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="bleach.png" alt="Banner do anime Bleach">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Kurosaki Ichigo is a boy from
+                        15 years that he can see, touch and talk to the spirits of dead people. Until one day he finds
+                        Kuchiki Rukia, a Shinigami (god of death), and later discovers that he is also a
+                        Shinigami. Now, with his powers, he will have to protect his city from evil forces.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Chainsaw Man</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="chainsaw.png" alt="Banner do anime Chainsaw Man">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">Denji is a teenager who lives
+                        with Pochita, the Chainsaw Demon. Because of the debts he inherited from his father, he lives in
+                        misery, exterminating other demons with Pochita to pay the bills. Until, one day, Denji is
+                        betrayed and dies. In his last moments of consciousness, he signs a contract with Pochita and
+                        is reborn as Chainsaw Man - a human with the heart of a demon.</p>
+                </article>
+                <article class="animee">
+                    <h3 class="title-animes">Blue Lock</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="blue.png" alt="Banner do anime Blue Lock">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">After suffering an embarrassment in the World Cup
+                        of the 2018 World Cup, the Japanese team is struggling to find its feet. The team lacks a top scorer, a
+                        star capable of guiding them to victory. With the aim of creating a striker hungry for the ball and thirsty
+                        of victory, capable of turning games considered impossible, the Japanese Football Confederation
+                        brings together 300 of the best youth players in the country in one place. Hundreds of young people will
+                        face a battle of muscles and egos to prove that they are the best.</p>
+                </article>
+                
+                <article class="animee">
+                    <h3 class="title-animes">My Hero Academia</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="mhyy-modified.png" alt="Banner do anime My Hero Academia">
+                    </div>
+                    <h4 class="sinopse">Sinopse</h4>
+                    <p class="text-sinopse conteudo">In a world where nearly everyone possesses superpowers known as "Quirks," Izuku Midoriya is born without any special abilities. Despite facing numerous challenges and discrimination for being Quirkless, Izuku remains determined to enroll in U.A. High School, the prestigious academy for aspiring heroes. His life takes an unexpected turn when he encounters the legendary hero All Might, who chooses him as his successor to inherit the powerful Quirk "One For All." Now, Izuku embarks on a journey to become a hero and faces formidable villains along with his classmates, each with their unique Quirks. "My Hero Academia" explores themes of heroism, friendship, and the pursuit of one's dreams in a world full of superpowers.</p>
+                </article>
+                
+                        <article class="animee">
+                            <h3 class="title-animes">Demon Slayer</h3>
+                            <div style="align-items: center;" class="intro-img home-img ">
+                                <img class="tamanho-animes" src="demon.png">
+                            </div>
+                            <h4 class="sinopse">Sinopse</h4>
+                            <p class="text-sinopse conteudo">Tanjiro, a kind young man who
+                                makes a living selling coal,
+                                discovers that his family was massacred by a demon. And to make matters worse, Nezuko, his younger sister
+                                and the only survivor, she was also transformed into a demon. Devastated by this dark reality,
+                                Tanjiro decides to become a demon slayer to turn his sister back into a human, and to
+                                kill the demon that killed your family. A sad tale about two brothers, where the fates of the
+                                humans and demons intertwine, it starts now.</p>
+                        </article>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="section darkgray-bg">
+        <div id="galeria" class="menu-spacing"></div>
+        <div class="home-content">
+            <h2 style="text-align: center;">Gallery</h2>
+        </div>
+
+        <div class="grid-galeria home-content">
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="deathh.jpg" alt="Imagem Demon Slayer: Kimetsu no Yaiba">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="suku.jpg"
+                    alt="Imagem Attack on Titan - Shingeki No Kyojin">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="kaguya-1.jpg" alt="Imagem KAGUYA-SAMA: LOVE IS WAR">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="bleach-1.jpg" alt="Imagem Bleach">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="bleach-2.png" alt="Imagem Bleach">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="kaguya-2.jpg" alt="Imagem KAGUYA-SAMA: LOVE IS WAR">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="chainsaw-1.png" alt="Imagem Chainsaw Man">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="blue-1.jpg" alt="Imagem Blue Lock">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="demon-2.jpg" alt="Imagem Demon Slayer: Kimetsu no Yaiba">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="attack-1.jpg"
+                    alt="Imagem Attack on Titan - Shingeki No Kyojin">
+                </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                        <img class="tamanho-animes" src="dnnn.jpg"
+                            alt="Imagem Attack on Titan - Shingeki No Kyojin">
+             </div>
+             <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="onee1.jpg"
+                    alt="Imagem Attack on Titan - Shingeki No Kyojin">
+     </div>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <ul class="moreInfo">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+          <p> &copy; 2024 AnimeTown.com</p>
+        </div>
+      </footer>
+</body>
+
+</html>
+
+</html>
